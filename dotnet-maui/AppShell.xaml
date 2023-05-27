@@ -7,8 +7,13 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
+        Title="My first MAUI App"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <ShellContent
+        Title="PhonewordTranslator"
+        ContentTemplate="{DataTemplate local:PhonewordTranslator}"
+        Route="PhonewordTranslator" />
 
 </Shell>
